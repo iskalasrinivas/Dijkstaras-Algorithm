@@ -29,7 +29,7 @@ end
 
 %% Algorithm (dijkstras)
 node=1;
-start_node=[floor(start_node(1,1)/res) floor(start_node(1,1)/res)];
+start_node=[floor(start_node(1,1)/res) floor(start_node(1,2)/res)];
 startx=start_node(1,1);
 starty=start_node(1,2);
 endnode=[floor(endnode(1,1)/res),floor(endnode(1,2)/res)];
